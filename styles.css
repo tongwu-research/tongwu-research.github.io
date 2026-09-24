@@ -23,6 +23,7 @@ nav { height: 76px; display: flex; align-items: center; justify-content: space-b
 .nav-links a.is-active::after { transform: scaleX(1); }
 .about { display: grid; grid-template-columns: minmax(0, 1fr) 208px; align-items: start; gap: 70px; padding-block: 64px 54px; }
 h1 { font-size: clamp(38px, 5vw, 52px); line-height: 1.05; font-weight: 650; letter-spacing: -.045em; margin: 0 0 16px; }
+.name-zh { color: var(--muted); font-size: .55em; font-weight: 500; letter-spacing: 0; white-space: nowrap; }
 .affiliation { font-size: 13px; color: var(--muted); margin-bottom: 26px; line-height: 1.5; }
 .affiliation span { color: #b0b3b7; padding-inline: 7px; }
 .bio > p:not(.affiliation) { font-size: 16px; line-height: 1.78; margin-bottom: 16px; text-wrap: pretty; }
@@ -101,6 +102,7 @@ footer a { color: inherit; }
   .about { grid-template-columns: minmax(0,1fr) 115px; column-gap: 20px; row-gap: 26px; padding-block: 38px 34px; }
   .bio { display: contents; }
   .bio h1 { grid-column: 1; align-self: end; margin: 0; font-size: 38px; }
+  .name-zh { display: block; margin-top: 6px; }
   .affiliation { grid-column: 1; grid-row: 2; margin: -13px 0 0; font-size: 12px; }
   .affiliation span { display: block; font-size: 0; padding: 0; }
   .portrait { grid-column: 2; grid-row: 1 / span 2; width: 115px; padding: 0; }
