@@ -2,15 +2,15 @@
 
 A lightweight, responsive academic homepage for Tong Wu, built with static HTML, CSS, and JavaScript for GitHub Pages. No build step, remote fonts, analytics, or runtime dependencies.
 
-This is the September 9, 2026 redesign, reviewed and approved by Tong for publication at https://tongwu-research.github.io/.
+The selected research section includes Gaussian image steganography, an ongoing holographic microscopy project at QCI Lab, and the SLM–MLA real-hardware toolkit.
 
 ## Local preview
 
 ```bash
-python3 -m http.server 8766 --bind 127.0.0.1
+python3 -m http.server 8877 --bind 127.0.0.1
 ```
 
-Then open `http://127.0.0.1:8766`.
+Then open `http://127.0.0.1:8877`.
 
 ## Design and interaction
 
@@ -26,6 +26,6 @@ References: [ChatGPT overview](https://openai.com/chatgpt/overview/), [Apple Mac
 - `index.html`: content and accessible page structure.
 - `styles.css`: responsive layout and visual states.
 - `script.js`: optional progressive interaction enhancements.
-- `assets/`: three figures from the owner's research materials; see `assets/SOURCES.md`.
+- `assets/`: individual research illustrations; see `assets/SOURCES.md`.
 
-The pre-redesign version is preserved in Git history at commit `84c2c5a84eab93194dd35582c343d8ecaab07ecf`. A full repository archive was also made before the review work began. Future visual changes should be reviewed in a local preview before publication.
+Review content and figures in the local preview before publication.
